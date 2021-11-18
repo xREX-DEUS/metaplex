@@ -15,11 +15,11 @@ import { ConnectButton } from '@oyster/common';
 
 const getDefaultLinkActions = (connected: boolean) => {
   return [
-    <Link to={`/`} key={'explore'}>
+    /*<Link to={`/`} key={'explore'}>
       <Button className="app-btn">Explore</Button>
-    </Link>,
+    </Link>,*/
     <Link to={`/artworks`} key={'artwork'}>
-      <Button className="app-btn">{connected ? 'My Items' : 'Artwork'}</Button>
+      <Button className="app-btn">{connected ? 'NFT Art' : 'Artwork'}</Button>
     </Link>,
     <Link to={`/artists`} key={'artists'}>
       <Button className="app-btn">Creators</Button>
