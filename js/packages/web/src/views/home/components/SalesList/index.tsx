@@ -38,7 +38,7 @@ export const SalesListView = () => {
     <>
       <Banner
         src="/knights-templar-battle-charge.jpg"
-        headingText="xREX DEUS is on Metaplex."
+        headingText="The Divine King is on Metaplex."
         subHeadingText=""
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg
